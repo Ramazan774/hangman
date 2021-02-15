@@ -3,6 +3,9 @@ import Header from "./components/Header";
 import Figure from "./components/Figure";
 import WrongLetters from './components/WrongLetters';
 import Word from './components/Word';
+import Popup from './componenents/Popup';
+import Notification from './components/Notification';
+import { showNotification as show, checkWin } from './helpers/helpers';
 
 import "./App.css";
 
